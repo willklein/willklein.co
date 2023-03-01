@@ -1,4 +1,13 @@
-# Astro Starter Kit: Blog
+# Will has a website
+
+Lives at: [willklein.co](https://www.willklein.co)
+Built with: [Astro](https://astro.build/)
+Deployed with: [Netlify](https://www.netlify.com/)
+Edited with: [CodeSandbox](https://codesandbox.io/)
+
+## Built with Astro Starter Kit: Blog
+
+The rest of this README is reference for me
 
 ```
 npm create astro@latest -- --template blog
