@@ -13,39 +13,53 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>👋🏽 Hi friend! I'm Will.</h1>
+			<h1>👋🏽 Hi friends, I'm Will.</h1>
 			<p>
 				I'm currently a design systems developer advocate learning to
-				work with ADHD while juggling his three children. He loves
-				teaching other developers and helping them realise their
-				potential by learning what they might consider intimidating. He
-				is equally excited to learn what each person can teach him,
-				about software development or the world we share. He is devoted
-				to breaking down barriers and making our industry one accepting
-				and supportive of all.
+				<s>survive</s> thrive with ADHD while juggling my three little kids.
+				I love teaching other developers and helping them realise their potential
+				by learning what they might consider intimidating. I am equally excited
+				to learn what each person can teach me, about software development
+				or the world we share. I am devoted to breaking down barriers and
+				making our industry one accepting and supportive of all.
 			</p>
 			<p>Here are some things I've worked on:</p>
 			<ul>
 				<li>
-					Growing the React Denver community through monthly events
+					Helping maintain <a
+						href="https://github.com/Workday/canvas-kit"
+						>Canvas Kit</a
+					>, an open source design system library that implements the <a
+						href="https://canvas.workday.com/"
+						>Workday Canvas Design System</a
+					>. I focus most on welcoming new contributors and supporting
+					our internal developer community.
+				</li>
+				<li>
+					Growing the <a
+						href="https://reactdenver.com/"
+						target="_blank">React Denver</a
+					> community through monthly events
 				</li>
 				<li>
 					Speaking at a few conferences like JSConf Iceland,
-					CascadiaJS, React Rally, and Nodevember
+					<a
+						href="https://www.youtube.com/watch?v=JMqZgUNkqgk&t=587s"
+						target="_blank">CascadiaJS</a
+					>, React Rally, and Nodevember
 				</li>
-				<li>Writing modern JavaScript since 2011</li>
 				<li>
 					Encouraging others to give their first meetup or conference
 					talk
 				</li>
 				<li>
-					A <a
+					Publishing a <a
 						href="https://chrome.google.com/webstore/detail/markdown-menu-for-github/jekgocfoijmbgcjejohdgmojaejofdpo?hl=en#:~:text=Markdown%20Menu%20for%20GitHub&text=Adds%20a%20navigation%20menu%20to,include%20a%20Table%20of%20Contents."
 						target="_blank">browser extension</a
 					> to add a table of contents to GitHub READMEs releases six years
 					before they finally implemented it
 				</li>
-				<li>A bunch of ESLint rules</li>
+				<li>Writing bunch of ESLint rules</li>
 				<li>
 					Teaching people how to write their first JavaScript tool
 					through talks, workshops, and a little website: <a
@@ -55,6 +69,19 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 					</a>
 				</li>
 			</ul>
+
+			<p>
+				This was built with <a
+					href="https://astro.build/"
+					target="_blank">Astro</a
+				>, deployed with <a
+					href="https://www.netlify.com/"
+					target="_blank">Netlify</a
+				>, and probably edited on <a
+					href="https://codesandbox.io/"
+					target="_blank">CodeSandbox</a
+				>.
+			</p>
 			<Footer />
 		</main>
 	</body>
