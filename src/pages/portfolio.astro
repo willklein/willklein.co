@@ -1,0 +1,146 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE } from "../config";
+
+const title = `Portfolio — ${SITE_TITLE}`;
+const description =
+  "Design systems, developer tools, and content from Will Klein — examples of what I've built and how I work.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>Portfolio</h1>
+      <p>
+        People sometimes ask what I actually work on day to day. This page
+        is a quick answer: a few shipped things, the tools I've built, and
+        the talks and writing where I've thought out loud about it. It leans
+        toward design systems and developer experience, since that's most of
+        my recent background — but it also shows how I like to work: get
+        something adopted, teach it, and build the process around it so it
+        sticks.
+      </p>
+
+      <h2>Design systems, in practice</h2>
+      <ul>
+        <li>
+          I helped maintain <a href="https://github.com/Workday/canvas-kit"
+            >Canvas Kit</a
+          >, Workday's open source design system. My focus wasn't just the
+          components — it was adoption: onboarding new contributors,
+          growing the internal developer community around the system, and
+          making Canvas Kit the easy path so thousands of developers used it
+          by default rather than by mandate.
+        </li>
+        <li>
+          I've talked publicly about what makes that kind of adoption work,
+          most recently in a talk called <em
+            >"What makes a design system win"</em
+          > at <a href="https://reactday.berlin/#person-will-klein"
+            target="_blank">React Day Berlin</a
+          > and <a
+            href="https://www.weyweyweb.com/speakers/?speaker=Will%20Klein"
+            target="_blank">Wey Wey Web</a
+          > in 2024.
+        </li>
+      </ul>
+
+      <h2>Tools I've built</h2>
+      <ul>
+        <li>
+          A <a
+            href="https://chrome.google.com/webstore/detail/markdown-menu-for-github/jekgocfoijmbgcjejohdgmojaejofdpo?hl=en"
+            target="_blank">browser extension</a
+          > that adds a table of contents to GitHub READMEs and Markdown
+          files. Years later, GitHub <a
+            href="https://twitter.com/willklein_/status/1375688038651596810"
+            target="_blank">shipped the same idea themselves</a
+          >.
+        </li>
+        <li>
+          <a href="https://astsareawesome.com/" target="_blank"
+            >ASTsareAwesome.com</a
+          >, a little site I built to teach developers how to write their own
+          dev tools — parsers, linters, codemods — through talks and
+          workshops, including <em
+            >"Start Building Your Own JavaScript Tools"</em
+          > (<a
+            href="https://gitnation.com/contents/start-building-your-own-javascript-tools"
+            target="_blank">video</a
+          >) and the <em>"Become a JavaScript Toolmaker"</em> workshop.
+        </li>
+      </ul>
+
+      <h2>Content</h2>
+      <p>
+        I write and speak about design systems and developer tooling
+        regularly — the full list is on my <a href="/speaking">speaking page</a
+        >. A few that are most relevant here:
+      </p>
+      <ul>
+        <li>
+          <em>"What makes a design system win"</em> — React Day Berlin & Wey
+          Wey Web, 2024
+        </li>
+        <li>
+          <em>"Testing our way to a better developer experience"</em> —
+          React Day Berlin & Wey Wey Web, 2024
+        </li>
+        <li>
+          <em>"Start Building Your Own JavaScript Tools"</em> — JSNation,
+          2023 (<a
+            href="https://gitnation.com/contents/start-building-your-own-javascript-tools"
+            target="_blank">video</a
+          >)
+        </li>
+        <li>
+          <em>"How Linters, Compilers & Other Cool Things Work"</em> —
+          CascadiaJS, 2018 (<a
+            href="https://www.youtube.com/watch?v=JMqZgUNkqgk"
+            target="_blank">video</a
+          >)
+        </li>
+      </ul>
+
+      <h2>How I work: building the process around it</h2>
+      <p>
+        Shipping a design system or a tool is one thing — getting an
+        organization to actually adopt it is another. That's the part I
+        tend to gravitate toward: the community and process work that makes
+        good tooling stick.
+      </p>
+      <ul>
+        <li>
+          I organized <a href="https://reactdenver.com/" target="_blank"
+            >React Denver</a
+          > for several years, co-ran <a
+            href="https://denverscript.com/"
+            target="_blank">DenverScript</a
+          >, and founded HartfordJS — local developer communities built from
+          scratch and run on a monthly cadence.
+        </li>
+        <li>
+          I organize local workshops for <a
+            href="https://twitter.com/gdcfpday"
+            target="_blank">Global Diversity CFP Day</a
+          > and mentor new speakers giving their first meetup or conference
+          talk.
+        </li>
+      </ul>
+
+      <p>
+        If you want more context on any of this, or want to talk about a
+        role, let's <a href="https://calendly.com/willklein">chat</a>.
+      </p>
+
+      <Footer />
+    </main>
+  </body>
+</html>
