@@ -461,11 +461,15 @@ layout: section
 
 - Component docs
 - Props + examples
-- Reuse, not reinvent
+- Reuse over reinvention
 
 <!--
 Gives agents (Claude Code, Cursor, Copilot, Gemini CLI) direct visibility into whatever
 components already exist in your codebase.
+
+AI sometimes does handles this OK, but with MCP tools, we're giving it clear directions.
+
+And saving a bit on tokens.
 -->
 
 ---
